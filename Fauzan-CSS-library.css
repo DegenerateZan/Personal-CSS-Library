@@ -7,7 +7,9 @@
 #header-line h2,
 #header-line h3 {
     overflow: hidden;
-    
+   /* text align : center 
+   if you want to put the heading in the middle so there will a line betweeen left and right
+   caution : recomend to edit it using your own css and also DO NOT USE THIS LIBRARY to edit A.K.A this css */
   }
   
   #header-line h1:before,
