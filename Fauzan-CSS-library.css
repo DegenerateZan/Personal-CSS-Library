@@ -1,0 +1,40 @@
+/* css horizontal line beside text 
+   untuk menggunakan ini diharapkan menggunakany di class 
+   dan masukan id library ini di dalam class tersebut
+*/
+
+#header-line h1,
+#header-line h2,
+#header-line h3 {
+    overflow: hidden;
+    
+  }
+  
+  #header-line h1:before,
+  #header-line h1:after,
+  #header-line h2:before,
+  #header-line h2:after,
+  #header-line h3:before,
+  #header-line h3:after  {
+    background-color: #c20808;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  #header-line h1:before,
+  #header-line h2:before,
+  #header-line h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  #header-line h1:after,
+  #header-line h2:after,
+  #header-line h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
